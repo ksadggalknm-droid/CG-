@@ -1,4 +1,4 @@
-import { db } from './firebase-config.js'; // Keep import for now but unused, likely to be removed in future cleanup
+// Local Auth System (No Firebase)
 
 // Local Auth System (No Firebase)
 const STORAGE_KEYS = {
