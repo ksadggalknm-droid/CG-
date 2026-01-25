@@ -228,6 +228,9 @@
                     items: cart,
                     total: currentTotal,
                     user: username,
+                    customerName: name,
+                    address: address,
+                    phone: phone,
                     paymentMethod: document.querySelector('input[name="payment"]:checked').value === 'qr' ? 'โอนเงิน (QR)' : 'เก็บปลายทาง (COD)',
                     status: 'รอตรวจสอบ'
                 };
