@@ -189,6 +189,9 @@
             // Note: Surname check is optional in modern flows but kept here if desired. 
             const inputPass = document.getElementById('password').value;
 
+            // Debug Code - Remove after fixing
+            // alert('DEBUG: Attempting login with: ' + inputUser + ' / ' + inputPass);
+
             btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-lg">progress_activity</span> กำลังตรวจสอบ...';
             btn.disabled = true;
 
